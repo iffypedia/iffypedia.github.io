@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+      p {
+        color: pink;
+      }
+      @import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
+      
+      body {
+          background-color: purple;
+      }
+      
+      .search {
+        width: 50%;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .searchTerm {
+        float: left;
+        width: 100%;
+        border: 3px solid grey;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px;
+        outline: none;
+        color: black;
+      }
+      
+      .searchTerm:focus{
+        color: black;
+      }
+      
+      .searchButton {
+        position: absolute;
+        right: -50px;
+        width: 40px;
+        height: 36px;
+        opacity: 0;
+        cursor: pointer;
+      }
+      
+      .search:before {
+        position: absolute;
+        right: -50px;
+        width: 40px;
+        height: 36px;
+        line-height: 36px;
+        background: grey;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'FontAwesome';
+        content: '\f002';
+      }
+      
+      /*Resize the wrap to see the search bar change!*/
+      .wrap{
+        width: 60%;
+        margin: 10% auto;
+      }
+      a {
+          color: white;
+      }
+      /* Sections
+         ========================================================================== */
+      /**
+       * Remove the margin in all browsers (opinionated).
+       */
+      
+      
+      /*# sourceMappingURL=Searchs_131.css.map */
+            </style>
+            <div class="wrap">
+                <div class="search">
+                   <input type="text" class="searchTerm" placeholder="Search Iffypedia...">
+                   <input type="submit" class="searchButton">
+                </div>
+             </div>
+             <a href="jerks.html">THE JERKS WHO INVENTED HOMEWORK...</a>
+             <p>These are the jerks who invented homework do not<br>
+            end up like them.
+            </p>
+    </body>
+</html>
